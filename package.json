@@ -1,0 +1,24 @@
+{
+  "name": "gibwork",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@jup-ag/api": "^6.0.26",
+    "@project-serum/anchor": "^0.26.0",
+    "@solana/spl-governance": "^0.3.28",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "node-cron": "^3.0.3",
+    "nodemon": "^3.1.4",
+    "pg": "^8.12.0"
+  }
+}
